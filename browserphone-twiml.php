@@ -4,7 +4,7 @@ require('Services/Twilio.php');
 // 発信者番号：Twilioから取得された電話番号
 $callerId = "+815031596741";
 // 受信者番号：Twilioの電話番号に電話をかけた際に受信者としてTwilio Client名を設定。（番号でも問題ない）
-$number = "BrowserPhone";
+$number = "twi";
 
 // 画面から入力された電話番号の取得
 if (isset($_REQUEST['tocall'])) {
