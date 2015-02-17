@@ -2,12 +2,12 @@
 // @start snippet
 include 'Services/Twilio/Capability.php';
 
-$accountSid = 'ACxxxxxxxxxxxxxxx';
-$authToken  = 'xxxxxxxxxxxxxxxxx';
+$accountSid = 'AC01d7adcc1603edd0dfd292fdd650eebc';
+$authToken  = '30dd35709866437e2765fa8d235cc52e';
 
 $token = new Services_Twilio_Capability($accountSid, $authToken);
-$token->allowClientOutgoing('APxxxxxxxxxxxxxxx');
-$token->allowClientIncoming("alice");
+$token->allowClientOutgoing('APf8c8ac6a38862cd81f9f002639d289e5');
+$token->allowClientIncoming("BrowserPhone");
 // @end snippet
 ?>
 
@@ -18,7 +18,7 @@ $token->allowClientIncoming("alice");
 			Twilio Client Click to Call
 		</title>
 		<!-- @start snippet -->
-		<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.1/twilio.min.js"></script>
+		<script type="text/javascript" src="//static.twilio.com/libs/twiliojs/1.2/twilio.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
